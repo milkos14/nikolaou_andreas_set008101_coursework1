@@ -1,0 +1,66 @@
+body{background-color:Slateblue;}
+
+h1{margin-left:20px;}
+.binary { color: #ffffff; font-family: Lato, sans-serif; font-size: 45px;
+		font-weight: 300; line-height: 58px; margin: 0 0 58px; position:relative;
+		top:-20px; margin-left: 350px;}
+."input area"{rows="5" cols="50"}
+
+footer{background-color:black;
+	position: relative;
+		left: -10px;
+		bottom:-345px;
+		width: 1920px;
+		height:400px;}
+.binaryPic
+{
+	position: relative;
+	width: 400px;
+	height:400px;
+	right:-750px;
+	top:-150px;
+	height:auto;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 120px;
+	height: 150px;
+	background-color: navy;
+	color: white;
+	box-shadow: 5px 5px 25px #000;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: 
+	all 1s;}
+  .box:hover{
+    width: 1360px;
+	background-color:Slateblue;
+	box-shadow: -5px 5px 25px #000;
+  }
+  .boxBlurb {
+    opacity: 1;
+    transform: translateX(45px);
+    transition: 
+      opacity 0.5s 2s,
+      transform 0.5s 0.5s;
+  }
+  .box:hover .boxBlurb {
+    opacity:0;
+  transform: translateX(-500px);}
+    .rectBlurb {
+      opacity: 0;
+      transform: translateX(500px);
+	  transition:
+	  opacity .5s 1s,
+	  transform .5s 1s;
+    }
+    .box:hover .rectBlurb {
+      opacity: 1;
+      transform: translateX(-100px);
+    }
+  }
+  }
+

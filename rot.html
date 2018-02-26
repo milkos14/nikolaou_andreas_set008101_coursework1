@@ -1,0 +1,61 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="rot.css">
+		<title>ROT ENCODER/DECODER</title>
+	</head>
+	
+	<body>
+		<h2> <a href="index.html">Home</a></h1>
+		<h1 class= "rot";>ROT</h1>
+		
+		<select id="rotX">
+		  <option value="#">Select an option</option>
+		  <option value="1">Rot 1</option>
+		  <option value="2">Rot 2</option>
+		  <option value="3">Rot 3</option>
+		  <option value="4">Rot 4</option>
+		  <option value="5">Rot 5</option>
+		  <option value="6">Rot 6</option>
+		  <option value="7">Rot 7</option>
+		  <option value="8">Rot 8</option>
+		  <option value="9">Rot 9</option>
+		  <option value="10">Rot 10</option>
+		  <option value="11">Rot 11</option>
+		  <option value="12">Rot 12</option>
+		  <option value="13">Rot 13</option>
+		  <option value="14">Rot 14</option>
+		  <option value="15">Rot 15</option>
+		  <option value="16">Rot 16</option>
+		  <option value="17">Rot 17</option>
+		  <option value="18">Rot 18</option>
+		  <option value="19">Rot 19</option>
+		  <option value="20">Rot 20</option>
+		  <option value="21">Rot 21</option>
+		  <option value="22">Rot 22</option>
+		  <option value="23">Rot 23</option>
+		  <option value="24">Rot 24</option>
+		  <option value="25">Rot 25</option>
+		</select>
+		<img class="rotPic"; src="rot.jpg"> </img>
+		
+		<div id="input_area">
+			<textarea rows="3" cols="50" autofocus id="inputmessage">Type text to encode</textarea>
+			<button style ="button" onclick ="encode ()" id ="encode_button">EncodifyEverything</button>
+			<button style ="button" onclick ="decode ()" id ="decode_button">Decipher</button>
+		</div>
+		<div id="output_area">
+			<textarea rows="3" cols="50" autofocus id="outputmessage" disabled></textarea>
+			<div id="output"></div>
+		
+		<script type="text/javascript" src="rot.js"></script>
+	</body>
+	<footer>
+		<div class= "box">
+		<span class="boxBlurp">ROT CIPHER</span>
+		<span class="rectBlurp">ROT stands for ROTation - meaning to rotate letters of the alphabet forward. The 
+		alphabet wraps around, so ROT-1 would mean that a=b, b=c, c=d.....x=y, y=z, z=a. 
+		There are 25 possible ROT settings, covering the scope of the alphabet.</span>
+		</div>
+	</footer>
+</html>
